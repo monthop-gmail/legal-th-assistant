@@ -131,11 +131,17 @@ legal-th-assistant/
 │   ├── labor_protection_2541.txt
 │   ├── pdpa_2562.txt
 │   └── criminal_code_common.txt
-└── scripts/
-    ├── ingest_laws.py     ← แยกมาตรา → embedding → ChromaDB
-    ├── search_law.py      ← CLI search
-    └── mcp_server.py      ← MCP server (Streamable HTTP)
+├── scripts/
+│   ├── ingest_laws.py     ← แยกมาตรา → embedding → ChromaDB
+│   ├── search_law.py      ← CLI search
+│   └── mcp_server.py      ← MCP server (Streamable HTTP)
+└── docs/
+    └── how-mcp-server-works.md  ← อธิบายการทำงานของ MCP server
 ```
+
+## เอกสารเพิ่มเติม
+
+- [MCP Server ทำงานอย่างไร](docs/how-mcp-server-works.md) — Flow การทำงาน, MCP Protocol, Semantic Search
 
 ## License
 
