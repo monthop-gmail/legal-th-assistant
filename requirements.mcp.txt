@@ -1,0 +1,3 @@
+mcp[cli]>=1.26.0
+chromadb-client>=1.5.0
+sentence-transformers>=3.0.0
