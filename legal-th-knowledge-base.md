@@ -35,7 +35,8 @@ legal-th/
 │   ├── ingest_laws.py         ← แยกทีละมาตรา → embedding → ChromaDB
 │   ├── search_law.py          ← CLI search
 │   └── mcp_server.py          ← MCP Streamable HTTP server (FastMCP)
-└── legal-th-knowledge-base.md ← ไฟล์นี้
+├── legal-th-knowledge-base.md ← บันทึกสถาปัตยกรรมและ TODO
+└── README.md                  ← คู่มือใช้งาน (GitHub)
 ```
 
 ---
