@@ -136,12 +136,14 @@ legal-th-assistant/
 │   ├── search_law.py      ← CLI search
 │   └── mcp_server.py      ← MCP server (Streamable HTTP)
 └── docs/
-    └── how-mcp-server-works.md  ← อธิบายการทำงานของ MCP server
+    ├── how-mcp-server-works.md      ← อธิบายการทำงานของ MCP server
+    └── legal-th-knowledge-base.md   ← สถาปัตยกรรม, มาตราสำคัญ, TODO
 ```
 
 ## เอกสารเพิ่มเติม
 
 - [MCP Server ทำงานอย่างไร](docs/how-mcp-server-works.md) — Flow การทำงาน, MCP Protocol, Semantic Search
+- [Knowledge Base & Architecture](docs/legal-th-knowledge-base.md) — สถาปัตยกรรม, มาตราสำคัญ, TODO
 
 ## License
 
